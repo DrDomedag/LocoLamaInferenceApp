@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 
 from wordgame import WordGame
 
-token = "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"
+token = "" #Input your HF token here
 
 if "wordgame" not in st.session_state:
     st.session_state.wordgame = WordGame()
