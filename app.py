@@ -13,10 +13,11 @@ st.title("The Word Game")
 #model_name = "unsloth/Llama-3.2-1B-Instruct"
 #model_name = "HuggingFaceH4/zephyr-7b-beta"
 #model_name = "T3lli/test"
-model_name = "T3lli/test_v2"
+#model_name = "T3lli/test_v2"
 #model_name = "DrDomedag/LocoLamav3"
 #model_name = "DrDomedag/LocoLamav3M"
 #model_name = "DrDomedag/LocoLamav3M4bit"
+model_name = "DrDomedag/HumanDialoguev2"
 
 client = InferenceClient(model_name, timeout=300, token=token)
 
